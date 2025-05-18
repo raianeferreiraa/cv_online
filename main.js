@@ -1,4 +1,5 @@
 // main.js
+//para mudar a cor do menu quando rolar a tela
 window.addEventListener('scroll', function () {
     const menu = document.getElementById('menu');
     if (window.scrollY > 50) {  // se a pessoa rolou mais que 50px
@@ -9,7 +10,7 @@ window.addEventListener('scroll', function () {
       menu.style.boxShadow = 'none';
     }
   });
-  
+//para chamar o menu e o rodapé em cada página  
 document.addEventListener("DOMContentLoaded", function () {
   fetch("header.html")
     .then((response) => response.text())
