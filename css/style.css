@@ -1,0 +1,118 @@
+/* Estilo para o corpo com imagem de fundo */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0F3247;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Menu fixo e transparente inicialmente */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  z-index: 1000;
+  transition: background-color 0.4s ease;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  background-color: rgba(255, 255, 255, 0); /* totalmente transparente */
+  transition: background-color 0.5s ease;
+  z-index: 1000;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: white; /* texto branco para ficar visível na imagem */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+*/
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.conteudo {
+  min-height: 100vh; /* Garante que a div tenha altura mínima de uma viewport */
+  position: relative; /* Importante para posicionamento absoluto do rodapé */
+  padding-bottom: 60px; /* Define um espaço abaixo do conteúdo para o rodapé */
+  background: transparent !important; /* força a remoção do fundo branco */
+  color: white;
+  text-align: left;
+  padding: 20px;
+  max-width: 800px;
+  margin: 50px auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(
+    139,
+    0,
+    139,
+    0.9
+  ); /* Cor de fundo do rodapé */
+  color: aliceblue;
+  padding: 8px;
+  text-align: center;
+}
+
+strong {
+  color:rgba(
+    139,
+    0,
+    139,
+    0.9);
+}
+
+.img-lateral {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+}
+
+.img-lateral img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 20px;
+  
+}
+
+a {
+  color: rgba(
+    139,
+    0,
+    139,
+    0.9);
+  text-decoration: none;
+  
+}
